@@ -12,22 +12,13 @@ local opt = vim.opt   -- Set options (global/buffer/windows-scoped)
 -----------------------------------------------------------
 -- General
 -----------------------------------------------------------
-vim.cmd('set nocompatible')
-vim.cmd('syntax enable')
-vim.cmd('filetype plugin on')
-opt.mouse = 'a'                       -- Enable mouse support
-opt.clipboard = 'unnamedplus'         -- Copy/paste to system clipboard
-opt.swapfile = false                  -- Don't use swapfile
-opt.completeopt = 'menuone,noinsert,noselect'  -- Autocomplete options
-
------------------------------------------------------------
--- Change pop ups menu colors
------------------------------------------------------------
--- vim.cmd('colorscheme slate')
-vim.cmd('colorscheme darkblue')
-vim.cmd('highlight Pmenu ctermbg=white guibg=black')
-vim.cmd('hi Visual guifg=none guibg=#363636 gui=none')
-vim.cmd('hi VertSplit guifg=none guibg=none')
+-- vim.cmd('set nocompatible')
+-- vim.cmd('syntax enable')
+-- vim.cmd('filetype plugin on')
+-- opt.mouse = 'a'                       -- Enable mouse support
+-- opt.clipboard = 'unnamedplus'         -- Copy/paste to system clipboard
+-- opt.swapfile = false                  -- Don't use swapfile
+-- opt.completeopt = 'menuone,noinsert,noselect'  -- Autocomplete options
 
 -----------------------------------------------------------
 -- Neovim UI

@@ -12,6 +12,7 @@ end
 
 -- Change leader to a comma
 vim.g.mapleader = ','
+vim.g.maplocalleader = "\\"
 
 -----------------------------------------------------------
 -- Neovim shortcuts

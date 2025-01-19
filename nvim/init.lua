@@ -1,14 +1,7 @@
---[[
-Neovim init file
-Maintainer: brainf+ck
-Website: https://github.com/brainfucksec/neovim-lua
---]]
+-- Configs
+require("config.options")
+require("config.keymaps")
+require("config.abbreviations")
 
--- Import Lua modules
-require('core/keymaps')
-require('core/options')
-require('core/colors')
-require('core/abbreviations')
--- Plugins
-require('core/plugins')
-require('core/plugin_config')
+-- plugins
+require("config.lazy")
